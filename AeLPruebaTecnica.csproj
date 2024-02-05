@@ -16,4 +16,12 @@
     <None Remove="TestProject1\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.19.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logic\SQL Server\" />
+  </ItemGroup>
+
 </Project>
