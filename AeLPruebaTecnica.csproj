@@ -8,8 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="FunctionApp1\**" />
     <Compile Remove="TestProject1\**" />
+    <EmbeddedResource Remove="FunctionApp1\**" />
     <EmbeddedResource Remove="TestProject1\**" />
+    <None Remove="FunctionApp1\**" />
     <None Remove="TestProject1\**" />
   </ItemGroup>
 
